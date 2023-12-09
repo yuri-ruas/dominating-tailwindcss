@@ -6,6 +6,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        app: '700px'
+      },
+
       colors: {
         diego: '#333'
       }
