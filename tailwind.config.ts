@@ -1,18 +1,16 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  content: [
-    './src/**/*.tsx'
-  ],
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
       maxWidth: {
-        app: '700px'
+        app: '700px',
       },
 
       colors: {
-        diego: '#333'
-      }
+        diego: '#333',
+      },
     },
   },
   plugins: [],
